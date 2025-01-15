@@ -13,6 +13,8 @@ __global__ void addKernel(int *c, const int *a, const int *b)
 }
 
 
+
+
 // Helper function for using CUDA to add vectors in parallel.
 cudaError_t addWithCuda(int *c, const int *a, const int *b, unsigned int size)
 {
